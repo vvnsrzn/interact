@@ -19,7 +19,8 @@ interact('.resize-drag')
   onmove: window.dragMoveListener
 })
 .resizable({
-  edges: { left: true, right: true, bottom: true, top: true }
+  edges: { left: true, right: true, bottom: true, top: true },
+  preserveAspectRatio: true
 })
 .on('resizemove', function (event) {
   var target = event.target;
