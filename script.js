@@ -43,13 +43,13 @@ interact(".size")
 	});
 
 $(".open").click(function() {
-	$(this)
-		.removeClass("open")
-		.addClass("closed");
+	$(this).toggleClass("open closed");
 });
 
 $(".closed").click(function() {
-	$(this)
-		.removeClass("closed")
-		.addClass("open");
+	$(this).toggleClass("open closed");
 });
+
+setTimeout(function() {
+	$(".welcome").css("display", "none");
+}, 4000);
