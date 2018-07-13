@@ -14,7 +14,7 @@ function dragMoveListener (event) {
   target.setAttribute('data-y', y);
 }
 
-interact('.resize-drag')
+interact('.size')
 .draggable({
   onmove: window.dragMoveListener
 })

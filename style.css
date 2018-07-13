@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+.content {
+  margin-left: 10vw
+}
 .navigation {
   font-size: 13px !important;
 }
