@@ -52,4 +52,4 @@ $(".closed").click(function() {
 
 setTimeout(function() {
 	$(".welcome").css("display", "none");
-}, 4000);
+}, 5000);

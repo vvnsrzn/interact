@@ -1,3 +1,13 @@
+.row {
+	margin: 0 !important;
+}
+
+.marquee {
+  width: 300px; /* the plugin works for responsive layouts so width is not necessary */
+  overflow: hidden;
+  border:1px solid #ccc;
+}
+
 .welcome {
   font-size: 36px;
   font-family: "Crimson";
@@ -33,7 +43,7 @@ body {
 .fluid-container {
 	/* margin-right: 0vw !important;
   margin-left: 310px !important; */
-	margin-left: 286px !important;
+	margin-left: 14rem !important;
 	/* width: 100%; */
 }
 
