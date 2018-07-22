@@ -53,3 +53,19 @@ $(".closed").click(function() {
 setTimeout(function() {
 	$(".welcome").css("display", "none");
 }, 5000);
+
+function banner() {
+	let elem = document.getElementById("banner");
+	let pos = 0;
+	var id = setInterval(frame, 5);
+	function frame() {
+		if (pos == 3500) {
+			clearInterval(id);
+		} else {
+			pos += -2;
+			elem.style.marginLeft = pos + "px";
+		}
+	}
+}
+
+banner();

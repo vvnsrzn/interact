@@ -2,6 +2,11 @@
 	margin: 0 !important;
 }
 
+#banner {
+	margin-left: 50px
+}
+
+
 .marquee {
   width: 300px; /* the plugin works for responsive layouts so width is not necessary */
   overflow: hidden;
