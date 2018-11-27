@@ -59,7 +59,8 @@ function banner() {
 	let pos = 0;
 	var id = setInterval(frame, 5);
 	function frame() {
-		if (pos == 3500) {
+		console.log(pos);
+		if (pos == -3500) {
 			clearInterval(id);
 		} else {
 			pos += -2;
