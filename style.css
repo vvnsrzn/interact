@@ -27,7 +27,6 @@
 .set_name,
 .project_link {
   color: #5b5b5b !important;
-  cursor: crosshair; 
 }
 .set_name:hover,
 .project_link:hover {
@@ -37,6 +36,7 @@
 
 .resize-drag {
 	box-sizing: border-box;
+  cursor: url(https://payload568.cargocollective.com/1/15/504174/13674978/CLICKER_MACHABYDE_photo_1.png), auto !important;
 }
 
 .content {
