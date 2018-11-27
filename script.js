@@ -52,7 +52,7 @@ $(".closed").click(function() {
 
 setTimeout(function() {
 	$(".welcome").css("display", "none");
-}, 5000);
+}, 8000);
 
 function banner() {
 	let elem = document.getElementById("banner");

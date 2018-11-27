@@ -1,11 +1,16 @@
+#banner {
+  margin-right: -100vw;
+  font-size: 60px;
+  font-family: 'Crimson Text', serif;
+  font-weight: 500;
+  letter-spacing: -0.08em;
+  text-decoration: underline;
+  color: #000;
+}
+
 .row {
 	margin: 0 !important;
 }
-
-#banner {
-	margin-left: 50px
-}
-
 
 .marquee {
   width: 300px; /* the plugin works for responsive layouts so width is not necessary */
