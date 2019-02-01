@@ -1,11 +1,11 @@
 #banner {
-  margin-right: -100vw;
-  font-size: 60px;
-  font-family: 'Crimson Text', serif;
-  font-weight: 500;
-  letter-spacing: -0.08em;
-  text-decoration: underline;
-  color: #000;
+	margin-right: -100vw;
+	font-size: 60px;
+	font-family: "Crimson Text", serif;
+	font-weight: 500;
+	letter-spacing: -0.08em;
+	text-decoration: underline;
+	color: #000;
 }
 
 .row {
@@ -13,30 +13,31 @@
 }
 
 .marquee {
-  width: 300px; /* the plugin works for responsive layouts so width is not necessary */
-  overflow: hidden;
-  border:1px solid #ccc;
+	width: 300px; /* the plugin works for responsive layouts so width is not necessary */
+	overflow: hidden;
+	border: 1px solid #ccc;
 }
 
 .welcome {
-  font-size: 36px;
-  font-family: "Crimson";
-  text-align: center;
-  color: #5b5b5b !important
+	font-size: 36px;
+	font-family: "Crimson";
+	text-align: center;
+	color: #000 !important;
 }
 .set_name,
 .project_link {
-  color: #5b5b5b !important;
+	color: #000 !important;
 }
 .set_name:hover,
 .project_link:hover {
 	font-style: italic;
-	color: #5b5b5b !important;
+	color: #000 !important;
 }
 
 .resize-drag {
 	box-sizing: border-box;
-  cursor: url(https://payload568.cargocollective.com/1/15/504174/13674978/CLICKER_MACHABYDE_photo_1.png), auto !important;
+	cursor: url(https://payload568.cargocollective.com/1/15/504174/13674978/CLICKER_MACHABYDE_photo_1.png),
+		auto !important;
 }
 
 .content {
@@ -1176,14 +1177,15 @@ body {
 }
 
 .project_link a {
-	color: #5b5b5b;
-	letter-spacing: 0cursor: context-menu; .4px;
+	color: #000;
+	letter-spacing: 0;
+	cursor: context-menu;
 	font-weight: 600;
 }
 
 .project_link a.active,
 .project_link a:hover {
-	color: #5b5b5b;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -1194,18 +1196,19 @@ body {
 }
 
 .page_link a {
-	color: #5b5b5b;
+	color: #000;
 	text-decoration: none;
 	font-weight: 500;
-	font-size: 12.6px;
+	font-size: 15.5px;
 	overflow: visible;
 	line-height: 0;
-	letter-spacing: 0.5px;
+	letter-spacing: 0px;
 }
 
 .page_link a:hover {
 	color: #000;
-	text-decoration: line-through;
+	font-style: italic;
+	text-decoration: none;
 }
 
 .page_link a:active {
@@ -1240,7 +1243,7 @@ body {
 
 .navigation .list {
 	padding: 0px;
-	margin-top: -96px;
+	margin-top: -110px;
 	margin-bottom: 0;
 	margin-left: -19px;
 }
@@ -1260,9 +1263,11 @@ body {
 }
 
 .navigation .set_name {
-	font-weight: 600;
-	color: #5b5b5b;
-	letter-spacing: 0.4px;
+	font-weight: 500;
+	color: #000;
+	text-decoration: none;
+	letter-spacing: 0px;
+	font-size: 16px;
 }
 
 .navigation .set_link.toggle .set_name:hover {
