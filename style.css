@@ -1,11 +1,16 @@
 #banner {
 	margin-right: -100vw;
-	font-size: 60px;
+	color: black;
+	font-size: 123px;
 	font-family: "Crimson Text", serif;
 	font-weight: 500;
 	letter-spacing: -0.08em;
-	text-decoration: underline;
-	color: #000;
+	width: 800%;
+	height: 100%;
+	margin-top: -23px;
+	line-height: 133px;
+	text-align: left;
+	-moz-transform: tr;
 }
 
 .row {
@@ -32,12 +37,6 @@
 .project_link:hover {
 	font-style: italic;
 	color: #000 !important;
-}
-
-.resize-drag {
-	box-sizing: border-box;
-	cursor: url(https://payload568.cargocollective.com/1/15/504174/13674978/CLICKER_MACHABYDE_photo_1.png),
-		auto !important;
 }
 
 .content {

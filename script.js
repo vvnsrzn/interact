@@ -52,14 +52,13 @@ $(".closed").click(function() {
 
 setTimeout(function() {
 	$(".welcome").css("display", "none");
-}, 8000);
+}, 9000);
 
 function banner() {
 	let elem = document.getElementById("banner");
-	let pos = 0;
+	let pos = 1300;
 	var id = setInterval(frame, 5);
 	function frame() {
-		console.log(pos);
 		if (pos == -3500) {
 			clearInterval(id);
 		} else {
