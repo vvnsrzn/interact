@@ -52,10 +52,12 @@ $(".closed").click(function() {
 
 setTimeout(function() {
 	$(".welcome").css("display", "none");
+	$(".first-row").css("margin-top", "20px !important");
 }, 9000);
 
 function banner() {
 	let elem = document.getElementById("banner");
+	elem.style.display = "inline-block";
 	let pos = 1300;
 	var id = setInterval(frame, 5);
 	function frame() {
