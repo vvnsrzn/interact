@@ -1,6 +1,6 @@
 #banner {
 	margin-right: -100vw;
-	color: black;
+	color: #a3a3a3;
 	font-size: 123px;
 	font-family: "Arial", serif;
 	font-weight: 500;
@@ -16,6 +16,7 @@
 ul > li > a {
 	font-family: "Arial";
 	font-size: 12px;
+	text-transform: uppercase;
 }
 
 .row {
