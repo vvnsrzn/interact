@@ -2,15 +2,20 @@
 	margin-right: -100vw;
 	color: black;
 	font-size: 123px;
-	font-family: "Crimson Text", serif;
+	font-family: "Arial", serif;
 	font-weight: 500;
-	letter-spacing: -0.08em;
+	letter-spacing: -0.06em;
 	width: 800%;
 	height: 100%;
 	margin-top: -23px;
 	line-height: 133px;
 	text-align: left;
-	-moz-transform: tr;
+	text-transform: uppercase;
+}
+
+ul > li > a {
+	font-family: "Arial";
+	font-size: 12px;
 }
 
 .row {
