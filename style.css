@@ -13,10 +13,9 @@
 	text-transform: uppercase;
 }
 
-ul > li > a {
+ul > li {
 	font-family: "Arial";
 	font-size: 12px;
-	text-transform: uppercase;
 }
 
 .row {
@@ -1273,6 +1272,7 @@ body {
 	text-decoration: none;
 	letter-spacing: 0px;
 	font-size: 16px;
+	text-transform: uppercase;
 }
 
 .navigation .set_link.toggle .set_name:hover {
