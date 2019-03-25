@@ -1207,6 +1207,7 @@ body {
 	overflow: visible;
 	line-height: 0;
 	letter-spacing: 0px;
+	text-transform: uppercase;
 }
 
 .page_link a:hover {
@@ -1271,7 +1272,7 @@ body {
 	color: #000;
 	text-decoration: none;
 	letter-spacing: 0px;
-	font-size: 16px;
+	font-size: 12px;
 	text-transform: uppercase;
 }
 
