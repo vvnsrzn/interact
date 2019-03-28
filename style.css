@@ -16,6 +16,7 @@
 ul > li {
 	font-family: "Arial";
 	font-size: 12px;
+	text-transform: ;
 }
 
 .row {
@@ -1207,7 +1208,7 @@ body {
 	overflow: visible;
 	line-height: 0;
 	letter-spacing: 0px;
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 
 .page_link a:hover {
